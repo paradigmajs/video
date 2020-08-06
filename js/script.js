@@ -1,11 +1,10 @@
-//https://www.googleapis.com/youtube/v3/search?part=snippet&key=AIzaSyD86h_3MSJP9yDrETVrClHbdkPwCbEgfqw&type=video&q=js
 
 async function go(){
     let embed = 'https://www.youtube.com/embed/'
     let channelUrl= 'https://www.youtube.com/channel/'
 
     let url = 'https://www.googleapis.com/youtube/v3/search?part=snippet&maxResults='
-    let apiKey = '&key=AIzaSyD86h_3MSJP9yDrETVrClHbdkPwCbEgfqw'
+    let apiKey = '&key=Your_API_KEY'
     let type = document.getElementById("type").value    
     let maxResults = 10
     let q = document.getElementById('searchText').value 
